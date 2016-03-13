@@ -61,31 +61,16 @@
 
 
 
-<meta name="description" content="创建 Activity
-创建 Activity (或者其子类)的子类
-在创建的子类中实现生命周期的各种回调函数
-其中最重要的两个回调函数
-onCreate(Bundle): activity初始化。1.使用 setContentView(int)) 定义布局。2.使用 findViewById(int)) 获取需要的控件
-onPause(): 在这里保存并提交用户的修改信息(通常使用 Conten">
+<meta name="description" content="创建 Activity* onCreate(Bundle): activity初始化。1.使用 [setContentView(int)](http://developer.android.com/reference/android/app/Activity.html#setContentView(int)) 定义布局">
 <meta property="og:type" content="article">
 <meta property="og:title" content="android_test01">
 <meta property="og:url" content="http://yoursite.com/2016/03/13/android-test01/index.html">
 <meta property="og:site_name" content="auooo">
-<meta property="og:description" content="创建 Activity
-创建 Activity (或者其子类)的子类
-在创建的子类中实现生命周期的各种回调函数
-其中最重要的两个回调函数
-onCreate(Bundle): activity初始化。1.使用 setContentView(int)) 定义布局。2.使用 findViewById(int)) 获取需要的控件
-onPause(): 在这里保存并提交用户的修改信息(通常使用 Conten">
-<meta property="og:updated_time" content="2016-03-13T15:04:49.043Z">
+<meta property="og:description" content="创建 Activity* onCreate(Bundle): activity初始化。1.使用 [setContentView(int)](http://developer.android.com/reference/android/app/Activity.html#setContentView(int)) 定义布局">
+<meta property="og:updated_time" content="2016-03-13T15:09:51.530Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="android_test01">
-<meta name="twitter:description" content="创建 Activity
-创建 Activity (或者其子类)的子类
-在创建的子类中实现生命周期的各种回调函数
-其中最重要的两个回调函数
-onCreate(Bundle): activity初始化。1.使用 setContentView(int)) 定义布局。2.使用 findViewById(int)) 获取需要的控件
-onPause(): 在这里保存并提交用户的修改信息(通常使用 Conten">
+<meta name="twitter:description" content="创建 Activity* onCreate(Bundle): activity初始化。1.使用 [setContentView(int)](http://developer.android.com/reference/android/app/Activity.html#setContentView(int)) 定义布局">
 
 
 
@@ -161,7 +146,7 @@ onPause(): 在这里保存并提交用户的修改信息(通常使用 Conten">
             
               <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
             
-            Startseite
+            Home
           </a>
         </li>
       
@@ -171,7 +156,7 @@ onPause(): 在这里保存并提交用户的修改信息(通常使用 Conten">
             
               <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
             
-            Archiv
+            Archives
           </a>
         </li>
       
@@ -234,7 +219,7 @@ onPause(): 在这里保存并提交用户的修改信息(通常使用 Conten">
             <span class="post-meta-item-icon">
               <i class="fa fa-calendar-o"></i>
             </span>
-            <span class="post-meta-item-text">Veröffentlicht am</span>
+            <span class="post-meta-item-text">Posted on</span>
             <time itemprop="dateCreated" datetime="2016-03-13T21:19:16+08:00" content="2016-03-13">
               2016-03-13
             </time>
@@ -262,16 +247,8 @@ onPause(): 在这里保存并提交用户的修改信息(通常使用 Conten">
       
 
       
-        <h2 id="创建-Activity"><a href="#创建-Activity" class="headerlink" title="创建 Activity"></a>创建 Activity</h2><ul>
-<li>创建 Activity (或者其子类)的子类</li>
-<li>在创建的子类中实现生命周期的各种回调函数</li>
-<li>其中最重要的两个回调函数<ul>
-<li>onCreate(Bundle): activity初始化。1.使用 <a href="http://developer.android.com/reference/android/app/Activity.html#setContentView(int" target="_blank" rel="external">setContentView(int)</a>) 定义布局。2.使用 <a href="http://developer.android.com/reference/android/app/Activity.html#findViewById(int" target="_blank" rel="external">findViewById(int)</a>) 获取需要的控件</li>
-<li>onPause(): 在这里保存并提交用户的修改信息(通常使用 <a href="http://developer.android.com/reference/android/content/ContentProvider.html" target="_blank" rel="external">ContentProvider</a> 来保存数据)</li>
-</ul>
-</li>
-</ul>
-
+        <h2 id="创建-Activity"><a href="#创建-Activity" class="headerlink" title="创建 Activity"></a>创建 Activity</h2><pre><code>* onCreate(Bundle): activity初始化。1.使用 [setContentView(int)](http://developer.android.com/reference/android/app/Activity.html#setContentView(int)) 定义布局
+</code></pre>
       
     </div>
 
@@ -343,10 +320,10 @@ onPause(): 在这里保存并提交用户的修改信息(通常使用 Conten">
       
         <ul class="sidebar-nav motion-element">
           <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            Inhaltsverzeichnis
+            Table of Contents
           </li>
           <li class="sidebar-nav-overview" data-target="site-overview">
-            Übersicht
+            Overview
           </li>
         </ul>
       
@@ -363,7 +340,7 @@ onPause(): 在这里保存并提交用户的修改信息(通常使用 Conten">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
               <span class="site-state-item-count">3</span>
-              <span class="site-state-item-name">Artikel</span>
+              <span class="site-state-item-name">posts</span>
             </a>
           </div>
           
@@ -435,7 +412,7 @@ onPause(): 在这里保存并提交用户的修改信息(通常使用 Conten">
 </div>
 
 <div class="powered-by">
-  Erstellt mit  <a class="theme-link" href="http://hexo.io">Hexo</a>
+  Powered by <a class="theme-link" href="http://hexo.io">Hexo</a>
 </div>
 
 <div class="theme-info">
